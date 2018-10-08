@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.month-year-picker {
+  margin: auto;
+  width: 400px;
+  margin-top: 55px;
+
+  .caption {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .year-picker {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+
+    span {
+      font-size: 25px;
+      color: #5186ed;
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+
+    .controls {
+      position: absolute;
+      right: 0;
+      width: 80px;
+      top: 0;
+      height: 100%;
+      display: flex;
+
+      .fa {
+        margin: auto;
+        cursor: pointer;
+        font-size: 25px;
+
+        &.disabled {
+          cursor: default;
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+
+  .month-picker {
+    position: relative;
+    width: 100%;
+
+    > div {
+      position: relative;
+      width: 100%;
+      margin: auto;
+      display: block;
+
+      > div {
+        background-color: #ddd;
+        color: cornflowerblue;
+        height: 55px;
+        margin: 10px;
+        width: 20%;
+        display: inline-flex;
+        cursor: pointer;
+
+        &.selected {
+          background-color: #5186ed;
+          color: #FFFFFF;
+        }
+
+        span {
+          margin: auto;
+          font-size: 15px;
+          font-style: normal;
+        }
+      }
+
+    }
+  }
+}
