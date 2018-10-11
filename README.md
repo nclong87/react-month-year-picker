@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-month-year-picker.svg)](https://www.npmjs.com/package/react-month-year-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![Screenshot](https://i.imgur.com/qxiKKOa.png)
+
 ## Install
 
 ```bash
