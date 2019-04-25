@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './month-picker.less';
+import './monthYearPicker.less';
 
 function RenderMonth(props){
   const {
